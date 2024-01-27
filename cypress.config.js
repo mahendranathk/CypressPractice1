@@ -1,5 +1,5 @@
 const { defineConfig } = require("cypress");
-import cypressSplit from 'cypress-split'
+const cypressSplit = require('cypress-split')
 
 module.exports = defineConfig({
   e2e: {
